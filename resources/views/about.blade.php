@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Home | Hello City</title>
+        <title>About us | Hello City</title>
         
     </head>
     <body >
 
-    <h1>Hello from Bénin!</h1>
-    <p>It's currently {{ date('h:i A')}}.</p>
+    <p>Built with &hearts; by GOGNON Shira</p>
+    <p><a href="/">Revenir à la page d'acceuil</a></p>
     <!--date('d/m/y')-->
 
     <footer>
