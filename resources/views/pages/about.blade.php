@@ -14,7 +14,7 @@
     <!--date('d/m/y')-->
 
     <footer>
-        <p>&copy; Copyright {{ date('Y')}} &middot; <a href="/about-us">About Us</a>
+        <p>&copy; Copyright {{ date('Y')}} &middot;
         </p>
     </footer>
     </body>
