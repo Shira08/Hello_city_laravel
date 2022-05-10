@@ -5,7 +5,7 @@
 @endsection
 @section('content')
 
-    <img src="{{ asset('/img/logo.png') }}" class="rounded-full my-12 shadow-md" alt="logo">        
+    <img src="{{ asset('public/img/logo.png') }}" class="rounded-full my-12 shadow-md" alt="logo">        
     <h2 class="text-gray-700">
       Built with <span class="text-pink-500">&hearts;</span> by GOGNON Shira
     </h2>
