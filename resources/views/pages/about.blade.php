@@ -5,7 +5,7 @@
 @endsection
 @section('content')
 
-    <img src="/img/logo-social.png" alt="logo">        
+    <img src="{{ asset('/img/logo.png') }}" alt="logo">        
     <p>Built with &hearts; by GOGNON Shira</p>
     <p><a href="{{route('home')}}">Revenir à la page d'acceuil</a></p>
 @stop
