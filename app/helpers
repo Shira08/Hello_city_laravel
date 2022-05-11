@@ -1,0 +1,14 @@
+<?php
+
+if(!function_exists('page_title'))    
+{
+    function page_title(String $title = null): String {
+        if($title == null)
+        {
+            return config('app.base');
+        }else
+        {
+            return $title . ' | ' .config('app.name');
+        }
+    }
+};
