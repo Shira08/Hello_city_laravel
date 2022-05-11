@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://cdn.tailwindcss.com"></script>
-        <title>{{ page_title('help' ?? null) }}</title>
+        
+        <title>{{ page_title($title ?? null) }}</title>
         
         <!--title>($title) ? $title. ' | ' . config('app.name') : config('app.name') }}</title-->
     </head>
